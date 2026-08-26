@@ -16,8 +16,13 @@ function Footer() {
             a relaxing and memorable stay.
           </p>
 
-          <a href="#contact" className="footer-book-button">
-            Book Your Stay
+          <a
+            href={generalWhatsAppLink}
+            target="_blank"
+            rel="noreferrer"
+            className="footer-book-button"
+          >
+            Book on WhatsApp
           </a>
         </div>
 
