@@ -1,16 +1,128 @@
-# React + Vite
+# Raj Hotel and Restaurant Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive hotel website built for **Raj Hotel and Restaurant, Paithani, Uttarakhand**. It presents hotel information, available rooms, location and contact details through a clean and user-friendly interface.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Add your Vercel deployment link here:
 
-## React Compiler
+`https://your-project-name.vercel.app`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the Oxlint configuration
+- Responsive navigation bar
+- Mobile hamburger menu
+- Hotel hero section
+- About hotel section
+- Room cards with prices and details
+- Embedded Google Maps location
+- Get Directions button
+- Contact information
+- Responsive footer
+- Mobile, tablet and desktop support
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Technologies Used
+
+- React.js
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+- Google Maps Embed
+
+## Project Structure
+
+```text
+src/
+├── assets/
+│   ├── rooms/
+│   └── hotel images
+├── components/
+│   ├── Navbar.jsx
+│   ├── Navbar.css
+│   ├── Hero.jsx
+│   ├── Hero.css
+│   ├── About.jsx
+│   ├── About.css
+│   ├── Rooms.jsx
+│   ├── Rooms.css
+│   ├── Location.jsx
+│   ├── Location.css
+│   ├── Contact.jsx
+│   ├── Contact.css
+│   ├── Footer.jsx
+│   └── Footer.css
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+```
+
+## Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Prabhat-Gusain/rajHotel.git
+```
+
+Open the project:
+
+```bash
+cd rajHotel
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in the terminal, usually:
+
+```text
+http://localhost:5173
+```
+
+## Production Build
+
+```bash
+npm run build
+```
+
+The optimized production files will be generated inside the `dist` directory.
+
+## Deployment
+
+This project can be deployed on Vercel:
+
+```bash
+npx vercel --prod
+```
+
+## Hotel Location
+
+[View Raj Hotel and Restaurant Paithani on Google Maps](https://www.google.com/maps/dir/?api=1&destination=30.148373,78.9854316)
+
+## Future Improvements
+
+- Online room booking
+- Room availability checking
+- User signup and login
+- Admin dashboard
+- Booking management
+- Online payment integration
+- Customer reviews
+- Image gallery
+- Node.js and Express backend
+- MongoDB database
+
+## Author
+
+Developed by [Prabhat Gusain](https://github.com/Prabhat-Gusain)
