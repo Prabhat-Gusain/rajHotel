@@ -1,5 +1,4 @@
 import "./Contact.css";
-import { generalWhatsAppLink } from "../config/hotel";
 
 function Contact() {
   return (
@@ -52,12 +51,8 @@ function Contact() {
             <h3>Speak directly with our hotel team</h3>
           </div>
 
-          <a
-            href={generalWhatsAppLink}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Book on WhatsApp
+          <a href="tel:+919876543210">
+            Call for Booking
           </a>
         </div>
       </div>

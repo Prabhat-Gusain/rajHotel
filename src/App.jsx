@@ -5,7 +5,6 @@ import Rooms from "./components/Rooms";
 import Location from "./components/Location";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import WhatsAppButton from "./components/WhatsAppButton";
 import './App.css'
 
 function App() {
@@ -21,7 +20,6 @@ function App() {
         <Contact />
       </main>
 
-      <WhatsAppButton />
       <Footer/>
     </>
   )
