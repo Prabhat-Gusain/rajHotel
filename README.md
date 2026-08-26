@@ -4,9 +4,7 @@ A responsive hotel website built for **Raj Hotel and Restaurant, Paithani, Uttar
 
 ## Live Demo
 
-Add your Vercel deployment link here:
-
-`https://your-project-name.vercel.app`
+https://raj-hotel-gamma.vercel.app/
 
 ## Features
 
